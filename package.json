@@ -1,0 +1,28 @@
+{
+  "name": "monad music",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@bulatdashiev/svelte-slider": "^1.0.3",
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.15.7",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.54.0",
+    "svelte-preprocess": "^4.10.7",
+    "svelte-spotify-web-playback": "^1.0.3",
+    "tailwindcss": "^3.1.5",
+    "vite": "^4.2.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/adapter-node": "^1.2.4",
+    "svelte-share-buttons-component": "^1.5.5"
+  }
+}
