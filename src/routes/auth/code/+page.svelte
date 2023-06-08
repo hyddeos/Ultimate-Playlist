@@ -6,6 +6,7 @@
   let codeVerifier;
   const redirectUri = import.meta.env.VITE_REDIRECT_URL;
   const client_id = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
+  
   if (browser) {
     const urlParams = new URLSearchParams(window.location.search);
     code = urlParams.get("code");

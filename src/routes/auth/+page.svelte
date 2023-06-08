@@ -1,9 +1,10 @@
 <script>
   import { browser } from "$app/environment";
   import { goto } from "$app/navigation";
-  const client_id = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
 
+  const client_id = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
   const redirectUri = import.meta.env.VITE_REDIRECT_URL;
+
 
   function generateRandomString(length) {
     let text = "";

@@ -1,6 +1,11 @@
 <script>
   import AnalyzeTaste from "../../components/Analyze_taste.svelte";
   let bgImage = "/bg.jpg";
+
+  const client_id = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
+
+  const redirectUri = import.meta.env.VITE_REDIRECT_URL;
+
 </script>
 
 <section id="main_content" class="flex">
